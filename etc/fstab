@@ -1,0 +1,2 @@
+proc                    /proc   procfs  rw              0       0
+fdescfs                 /dev/fd fdescfs rw              0       0

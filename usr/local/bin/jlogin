@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -z "$1" ]; then
+        echo "usage: jlogin [jail]"
+        exit 1
+fi
+jexec $1 /usr/bin/login -f root
+exit $?
